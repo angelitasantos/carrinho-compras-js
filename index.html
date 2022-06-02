@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/root.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/gallery.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+
+<body class="body">
+
+    <header>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+
+    <div class="models">
+        <div class="item">
+            <a href="">
+                <div class="item--img"><img src="" /></div>
+                <div class="item--add">+</div>
+            </a>
+            <div class="item--price">R$ --</div>
+            <div class="item--name">--</div>
+            <div class="item--desc">--</div>
+        </div>
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtdArea">
+                <button class="cart--item-qtdMenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtdMais">+</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <h1 class="title">Pizzas</h1>
+        <div class="item-area"></div>
+    </main>
+
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1 class="subtitle">Resumo Compra</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto (-10%)</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+
+    <div class="itemWindowArea">
+        <div class="itemWindowBody">
+            <div class="itemInfo--cancelMobileButton">Voltar</div>
+            <div class="itemBig">
+                <img src="" />
+            </div>
+            <div class="itemInfo">
+                <h1 class="subtitle">--</h1>
+                <div class="itemInfo--desc">--</div>
+                <div class="itemInfo--sizearea">
+                    <div class="itemInfo--sector">Tamanho</div>
+                    <div class="itemInfo--sizes">
+                        <div data-key="0" class="itemInfo--size">PEQUENA <span>--</span></div>
+                        <div data-key="1" class="itemInfo--size">MÉDIO <span>--</span></div>
+                        <div data-key="2" class="itemInfo--size selected">GRANDE <span>--</span></div>
+                    </div>
+                </div>
+                <div class="itemInfo--priceArea">
+                    <div class="itemInfo--sector">Preço</div>
+                    <div class="itemInfo--price">
+                        <div class="itemInfo--actualPrice">R$ --</div>
+                        <div class="itemInfo--qtdArea">
+                            <button class="itemInfo--qtdMenos">-</button>
+                            <div class="itemInfo--qtd">1</div>
+                            <button class="itemInfo--qtdMais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemInfo--addButton">Adicionar ao carrinho</div>
+                <div class="itemInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="dados.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

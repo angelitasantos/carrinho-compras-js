@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+:root {
+
+    --font-size-title: 1.875rem;
+    --font-size-subtitle: 1rem;
+    --font-size-text: 0.875rem;
+
+    --font-family-title: "Poppins", "Roboto", sans-serif;
+    --font-family-text: "DM Sans", "Roboto", sans-serif;
+
+    --height-header: 4.5rem;
+
+    --color-dark: #222120;
+    --color-light: #DEDEDE;
+    --color-title-dark: #393939;
+    --color-title-light: #A8A9AB;
+    --color-base-dark: #000000;
+    --color-base-light: #FFFFFF;
+
+    --alert-success: #008000;
+    --alert-info: #0000FF;
+    --alert-danger: #FF0000;
+    --alert-warning: #FFA500;
+
+    /* paleta de cores */
+    --color-01: #516091;
+    --color-02: #295872;
+    --color-03: #357599;
+    --color-04: #4292BF;
+    --color-05: #67A8CD;
+    --color-06: #8DBEDA;
+    --color-07: #B9CFDD;
+
+}
+
+body {
+    min-height: 100vh;
+    font: 200 0.75rem var(--font-family-text);
+    color: var(--color-dark);
+    background: var(--color-base-light);
+}
+
+.container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.title {
+    font: 600 2.25rem var(--font-family-title);
+    color: var(--color-title-dark);
+}
+
+.subtitle {
+    font: 500 1.75rem var(--font-family-title);
+    color: var(--color-title-dark);
+}
